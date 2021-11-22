@@ -1,0 +1,47 @@
+body {
+  margin: 80px auto;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  transition: 0.5;
+}
+button {
+  margin: 50px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0.5px 1px 2px 1px black;
+  transition: 0.5s all;
+}
+button:hover {
+  transition: 0.2 all;
+  transform: translateY(-5px);
+}
+input {
+  cursor: pointer;
+  width: 50%;
+  border: 5px solid black;
+  height: 30px;
+}
+.kotak {
+  width: 30px;
+  height: 30px;
+  margin: 10px auto;
+}
+.r {
+  background-color: red;
+}
+.g {
+  background-color: green;
+}
+.b {
+  background-color: blue;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
